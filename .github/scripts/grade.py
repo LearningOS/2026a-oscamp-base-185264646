@@ -18,7 +18,7 @@ def main():
     subprocess.run(["cargo", "fetch", "--locked"], check=True)
     results = []
     for test in COURSE["tests"]:
-        command = ["cargo", "test", "--locked", "-p", test["name"]]
+        command = ["cargo", "+nightly", "test", "--locked", "-p", test["name"]]
         if test["target"] == "riscv64":
             command += ["--target", "riscv64gc-unknown-linux-gnu"]
         print(f"::group::{test['name']} ({test['score']} points)", flush=True)
