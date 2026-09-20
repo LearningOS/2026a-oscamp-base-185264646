@@ -2,16 +2,16 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-185264646",
-  "commit": "e44469c8b15182d25019606801b5541ab7fc0929",
-  "score": 86,
+  "commit": "41f3616a1c7a47b1cc5a4712fb361c7331e1aaa5",
+  "score": 94,
   "totalScore": 100,
   "exercises": [
     {
       "name": "thread_spawn",
       "max": 3,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 3,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "mutex_counter",
@@ -100,9 +100,9 @@
     {
       "name": "rwlock",
       "max": 5,
-      "score": 0,
-      "status": "timeout",
-      "exitCode": 124
+      "score": 5,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "stack_coroutine",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "185264646",
-  "runId": "35516371839",
+  "runId": "35516624693",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
